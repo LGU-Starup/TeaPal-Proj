@@ -1,0 +1,126 @@
+.Discovery{
+    align-self: center;
+    width: 1000px;
+    max-width: 94vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Recommend-passage-title{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Recommend-passage-title:hover h4{
+    color: #73389b;
+}
+
+.Discovery-activities{
+    width: 1000px;
+    max-width: 96vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Carousel-container{
+    overflow: hidden; 
+}
+
+.Activity-menu{
+   width: 400px;
+   flex:1;
+   padding: 20px;
+}
+
+.Carousel{
+    height: 300px;
+    max-width: calc(96vw - 400px);
+    width: calc(1000px - 400px);
+}
+
+.discovery-card{
+    min-height: 350px;
+}
+
+.Load-more-button{
+    margin-bottom: 20px;
+}
+
+.Discovery-title {
+    align-self: stretch;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Discovery-section-title {
+    align-self: stretch;
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Discovery-section-end {
+    align-self: stretch;
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Recommendation-indicator{
+    margin-bottom: 10px;
+    align-self: flex-start;
+    color:gray;
+}
+
+.Pal-recommendation{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    overflow-x: scroll;
+    align-self: stretch;
+    margin-bottom: 10px;
+}
+
+.Pal-recommendation-item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.Pal-recommendation-item-discription{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.post-moment{
+    position: fixed;
+    right: 100px;
+    bottom: 60px;
+}
+.moment-editor{
+    width: 800px;
+    height: 600px;
+}

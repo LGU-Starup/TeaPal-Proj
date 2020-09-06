@@ -1,0 +1,44 @@
+.pal-space{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pal-space-content{
+    min-width:700px;
+    margin-top: 20px;
+}
+.moment-content{
+    /* background-color: rgb(250, 225, 189); */
+    height: max-content;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.ps-title{
+    padding:10px;
+    padding-left: 15px;
+    /* background-color: #f0f0f0; */
+    font-size: 20px;
+    border-radius: 10px;
+    border:solid;
+    border-width: 1px;
+    border-color: #00000022
+}
+.avatar{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.update-time{
+    color: gray;
+    font-size: small;
+}
+.text-content{
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.moment-img{
+    margin-left: 60px;
+}
+.actions{
+    margin-top: 20px;
+}

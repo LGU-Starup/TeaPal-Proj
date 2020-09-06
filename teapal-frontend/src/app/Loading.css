@@ -1,0 +1,114 @@
+
+.Loading{
+    width: 1000px;
+    height: 100vh;
+}
+
+@keyframes changeOpacity {
+    from { opacity: 1; }
+    to { opacity: .2; }
+}
+
+.dot1{
+    position: relative;
+    top: 250px;
+    left: 495px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    animation: changeOpacity 1.04s ease infinite;
+    animation-delay: 0.13s;
+}
+.dot2{
+    position: relative;
+    top: 253px;
+    left: 465px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    animation: changeOpacity 1.04s linear infinite;
+}
+.dot3{
+    position: relative;
+    top: 244px;
+    left: 523px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.26s;
+}
+.dot4{
+    position: relative;
+    top: 262px;
+    left: 537px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 65%;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.39s;
+}
+
+.dot5{
+    position: relative;
+    top: 280px;
+    left: 523px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 55%;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.52s
+}
+.dot6{
+    position: relative;
+    top: 284px;
+    left: 495px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 45%;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.65s
+}
+.dot7{
+    position:relative;
+    top: 260px;
+    left: 465px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 35%;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.78s
+}
+.dot8{
+    position: relative;
+    top: 222px;
+    left: 450px;
+    background-color: #5B2082;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    opacity: 25%;
+    animation: changeOpacity 1.04s linear infinite;
+    animation-delay: 0.91s
+}
+.text{
+    position: relative;
+    top: 280px;
+    left: 450px;
+    color: #5B2082;
+    font-size: x-large;
+}

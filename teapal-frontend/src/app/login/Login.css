@@ -1,0 +1,75 @@
+.Login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5b2082;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-background{
+    background-color: #eea333;
+    background: url(http://106.52.96.163/img/20010819001_40.jpg);
+    height:85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-forms-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Login-form{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+
+.Signup-form{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 1000px){
+
+    .Login{
+        height: auto !important;
+    }
+    .Login-background{
+        height: auto !important;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        flex-direction: column;
+        height: auto;
+    }
+    .Login-forms-container{
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        flex-direction: column;
+    }
+    .Login-form{
+        width: 500px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .Login-form, .Signup-form{
+        width: 90vw;
+        height: auto;
+    }
+}
+
+
+
+.Login-block-title{
+    font-size: x-large;
+    margin-bottom: 20px;
+}

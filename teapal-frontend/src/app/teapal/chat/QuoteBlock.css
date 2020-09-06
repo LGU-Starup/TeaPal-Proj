@@ -1,0 +1,20 @@
+.Quote-block-contianer{
+    background-color: #00000015;
+    padding: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.Quote-block-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote-image{
+    object-fit: cover;
+    height:50px;
+    width: 70px;
+}

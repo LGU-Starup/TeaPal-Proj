@@ -1,0 +1,104 @@
+.Home{
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+  .Home-section-title{
+    background-color: #5b2082;
+    padding: 9vmin;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Home-content{
+    width: 1000px;
+    max-width: 96%;
+  }
+  
+  .ant-carousel .slick-slide {
+    height: 40vw;
+    overflow: hidden;
+  }
+  
+  .lamp-img{
+    height: 40vw;
+  }
+  
+  .Home-section{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+  }
+  
+  .Home-subtitle{
+    font-size:  calc(15px + 1vmin);
+    color: black;
+    flex-direction: row;
+    flex: 1;
+  }
+  .Home-catalog{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px
+  }
+  
+  @keyframes App-logo-anim {
+    0% {
+      transform: scale(0.8)
+    }
+    50% {
+      transform: scale(1)
+    }
+    100% {
+      transform: scale(0.8)
+    }
+  }
+  
+  
+  
+  .site-config-provider-calendar-wrapper {
+    width: 319px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  
+  .locale-components {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 16px;
+  }
+  
+  .code-box-demo .example {
+    margin: 16px 0;
+  }
+  
+  .code-box-demo .example > * {
+    margin-right: 8px;
+  }
+  
+  .change-locale {
+    margin-bottom: 16px;
+  }
+  
+  .Home-footer{
+    height: 30vh;
+    max-width: 100vw;
+    background-color: #5b2082;
+    margin-top: 5vh;
+    color: white;
+  }
+  .home-img{
+    width: 100vw;
+    height: 300px;
+  }
+  .home-text{
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
