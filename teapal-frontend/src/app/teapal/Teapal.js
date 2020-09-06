@@ -56,8 +56,8 @@ const Chat = () => {
           })
           .then(data=>{
               if(data){
-                  if(data.completeness<0.5){
-                    alert("请完善用户信息")
+                  if(data.completeness<0.5&&(!window.location.href.endsWith('questionaire'))){
+                    //alert("请完善用户信息"+window.location.href)
                     window.location.href="/teapal/questionaire"
                   }
                  
