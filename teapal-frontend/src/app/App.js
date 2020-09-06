@@ -36,32 +36,12 @@ function App() {
     }
   };
 
-  // changeLocale('ch')
-
-  /*const Home = Loadable({
-    loader: () => import('./home/Home'),
-    loading: Loading,
-  });
-
-  const Qwall = Loadable({
-    loader: () => import('./qwall/Qwall'),
-    loading: Loading,
-  });
-
-  const Handbook = Loadable({
-    loader: () => import('./handbook/Handbook'),
-    loading: Loading,
-  });*/
-
+  
   const Login = Loadable({
     loader: () => import('./login/Login'),
     loading: Loading,
   });
 
-  /*const Profile = Loadable({
-    loader: () => import('./profile/Profile'),
-    loading: Loading,
-  });*/
 
   const Teapal = Loadable({
     loader: () => import('./teapal/Teapal'),
@@ -73,21 +53,10 @@ function App() {
       <ConfigProvider locale={locale} >
         <Router >
           <Switch>
-            {/* <Route path="/qwall">
-              <Qwall />
-            </Route>
-            <Route path="/handbook">
-              <Handbook />
-            </Route>
-            <Route path="/profile/:user_name">
-              <Profile />
-            </Route> */}
+            
             <Route path="/login">
               <Login />
             </Route>
-            {/* <Route path="/search/:model/:search_value">
-              <Search />
-            </Route> */}
             <Route path="/teapal">
               <Teapal/>
             </Route>
@@ -95,9 +64,6 @@ function App() {
             <Route exact path="/">
               <Redirect to="/teapal" />
             </Route>
-            {/* <Route path="/">
-              <Home/>
-            </Route> */}
           </Switch>
         </Router>
       </ConfigProvider>
