@@ -187,7 +187,7 @@ const Chat = () => {
                                 style={chat_id===item.chat_id.toString()?{backgroundColor:"#00000022",cursor:'pointer'}:{cursor:'pointer'}}
                                 onClick={()=>{window.location.href="/teapal/chat?chat_id="+item.chat_id}}
                             >
-                                <Avatar icon={ano_avatar?null:<UserOutlined/>} src={ano_avatar}></Avatar>
+                                <Avatar icon={item.ano_avatar?null:<UserOutlined/>} src={item.ano_avatar}></Avatar>
                                 <div className="Chat-list-item-content">
                                     <span className="Chat-list-item-title-text">{item.ano_user}</span>
                                     <span className="Chat-list-item-latest-text">{item.content}</span>
